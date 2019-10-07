@@ -10,6 +10,7 @@ public class MethodReferences {
 	public static void main(String[] args) {
 		
 		List<String> names = Arrays.asList("Igor", "Bruno", "Victor");
+		//names.sort(ComparingInt(String::length));
 		names.forEach(System.out::println);
 		
 		Map<String, String> dogs = createDogMapSample();
